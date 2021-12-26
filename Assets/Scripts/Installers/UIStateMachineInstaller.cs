@@ -5,6 +5,6 @@ public class UIStateMachineInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        Container.Bind<IUIStateMachine>().To<UIStateMachineManager>().AsSingle();
+        //Container.Bind<IUIStateMachine>().To<StateMachineManager>().AsSingle();
     }
 }
